@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - KHIT Guntur</title>
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="KHIT Logo">
+                KHIT<span>-GUNTUR</span>
+            </a>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="departments.html">Departments</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero"
+        style="min-height: 40vh; height: 40vh; background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
+        <div class="container hero-content">
+            <h1>Get in Touch</h1>
+            <p>We are here to answer any questions you may have about KHIT.</p>
+        </div>
+    </header>
+
+    <section class="section" style="padding: 80px 0;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 50px;">
+
+                <!-- Contact Info -->
+                <div>
+                    <h2>Contact Information</h2>
+                    <p style="margin-bottom: 30px; color: var(--text-light);">Reach out to us for admissions, general
+                        inquiries, or campus visits.</p>
+
+                    <div style="margin-bottom: 20px; display: flex; align-items: flex-start;">
+                        <i class="fas fa-map-marker-alt"
+                            style="font-size: 1.2rem; color: var(--primary-color); margin-right: 15px; margin-top: 5px;"></i>
+                        <div>
+                            <h4 style="margin-bottom: 5px;">Address</h4>
+                            <p style="color: var(--text-light);">Near Kallam Spinning Mills Limited,<br>Guntur-Chennai
+                                Hwy, Dasaripalem,<br>Guntur - 522019, Andhra Pradesh.</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 20px; display: flex; align-items: flex-start;">
+                        <i class="fas fa-phone"
+                            style="font-size: 1.2rem; color: var(--primary-color); margin-right: 15px; margin-top: 5px;"></i>
+                        <div>
+                            <h4 style="margin-bottom: 5px;">Phone</h4>
+                            <p style="color: var(--text-light);">0863-2286333, 0863-2119726</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 20px; display: flex; align-items: flex-start;">
+                        <i class="fas fa-envelope"
+                            style="font-size: 1.2rem; color: var(--primary-color); margin-right: 15px; margin-top: 5px;"></i>
+                        <div>
+                            <h4 style="margin-bottom: 5px;">Email</h4>
+                            <p style="color: var(--text-light);">principal@khitguntur.ac.in<br>info@khitguntur.ac.in</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div style="background: white; padding: 40px; border-radius: 10px; box-shadow: var(--shadow);">
+                    <h3 style="margin-bottom: 20px;">Send us a Message</h3>
+                    <form
+                        onsubmit="event.preventDefault(); alert('Thank you for your message! We will get back to you soon.');">
+                        <div style="margin-bottom: 20px;">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Your Name</label>
+                            <input type="text" placeholder="John Doe"
+                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-family: inherit;">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Email Address</label>
+                            <input type="email" placeholder="john@example.com"
+                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-family: inherit;">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Message</label>
+                            <textarea placeholder="How can we help you?" rows="5"
+                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-family: inherit; resize: vertical;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Placeholder (Iframe would replace this) -->
+    <div style="width: 100%; height: 400px; background: #eee;">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15312.87186178873!2d80.40375525541992!3d16.247493050000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a76b0e358055b%3A0x7d83857d477813a!2sKallam%20Haranadha%20Reddy%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1709772863925!5m2!1sen!2sin"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2026 KHIT Guntur. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
